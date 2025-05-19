@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+h1, p {
+    font-size: 2rem;
+    color: white;
+}
+button {
+    font-size: 2rem;
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button:hover {
+    background-color: gray;
+}
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+.about ul li {
+    margin: 10px 0;
+}
+.speech-page button {
+    background: black;
+}
